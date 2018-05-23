@@ -30,3 +30,6 @@ dump.db
 # Rbenv version fragments
 .ruby-version
 
+# Ignore simplecov coverage folder
+/coverage
+
