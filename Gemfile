@@ -22,7 +22,7 @@ gem 'meta-tags'
 gem 'carrierwave', '~> 1.0'
 gem 'carrierwave-aws'
 gem 'rmagick'
-# gem 'kaminari'
+gem 'kaminari'
 gem 'bootstrap', '~> 4.1.0'
 gem 'jquery-rails'
 
