@@ -27,3 +27,6 @@
 # Redis db dump
 dump.db
 
+# Rbenv version fragments
+.ruby-version
+
