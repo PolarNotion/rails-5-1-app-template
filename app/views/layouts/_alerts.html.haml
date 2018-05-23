@@ -1,0 +1,15 @@
+- unless notice == nil || notice == ''
+  .alert.alert-success.alert-dismissible.text-center
+    .container.text-center
+      = notice
+      %button.close{data: { dismiss: 'alert' } }
+        %span
+          &times;
+
+- unless alert == nil || alert == ''
+  .alert.alert-danger.alert-dismissible.text-center
+    .container.text-center
+      = alert
+      %button.close{data: { dismiss: 'alert' } }
+        %span
+          &times;
